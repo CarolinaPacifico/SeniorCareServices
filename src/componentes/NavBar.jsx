@@ -1,29 +1,20 @@
-//import Container from 'react-bootstrap/Container';
-//import Nav from 'react-bootstrap/Nav';
-//import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import img from '../img/LOGO.svg'
 
 function NavBar() {
     return (
       <>
-
-      <header class="navbar-bg">
-        <div class="nav-container">
-            <a href=""><img src="./images/LOGO.svg" alt="logo"></img></a>
-            <li><a href="/">Sobre Nós</a></li>
-            <li><a href="/">Nossos Serviços</a></li>
-            <li><a href="/">Contato</a></li>
-
-        <li class='links'>
-        <li><a href="/login">Login</a></li>
-        <li><a href="/Cadastro">Cadastro</a></li>
-        </li>
-        </div>
-
-      </header>
-
-       {/* <Navbar className='cor'>
+      <Navbar className='cor'>
           <Container>
-            <Navbar.Brand href="/LOGO.svg"></Navbar.Brand>
+            <Navbar.Brand href="/home"><img
+          className="d-block w-100"
+          width={15}
+          height={60}
+          src={img}
+          alt="First slide"
+        /></Navbar.Brand>
             <Nav className="me-auto aa">
             <div>
                 <Nav.Link href="/">Sobre Nós</Nav.Link>
@@ -33,13 +24,15 @@ function NavBar() {
             <div>
                 <Container className='LoginBTN'>
                 <Nav.Link href="/Login">Login</Nav.Link>
+                </Container> 
+                <Container className='CadastroBTN'>
                 <Nav.Link href="/Cadastro">Cadastre-se</Nav.Link>
-                </Container>   
+                </Container>
+                  
             </div>
             </Nav>
           </Container>
         </Navbar>
-    <br />*/}
       </>
     );
   }
