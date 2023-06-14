@@ -8,24 +8,29 @@ function NavBar() {
       <>
       <div className='header'>
           <Container>
-            <Navbar.Brand href="/home"><img
-          className="d-block w-100"
-          width={15}
-          height={60}
+            <Navbar.Brand href="/home" className="logo-img">
+          <img
+          width={90}
+          height={125}
           src={img}
-          alt="First slide"
-        /></Navbar.Brand>
-            <Nav className="me-auto">
+          alt="First slide"/>
+          </Navbar.Brand>
+
+        <div className="links">
                 <Nav.Link href="/">Sobre Nós</Nav.Link>
                 <Nav.Link href="#features">Nossos Serviços</Nav.Link>
-                <Nav.Link href="#pricing">Contato</Nav.Link>   
+                <Nav.Link href="#pricing">Contato</Nav.Link>
+        </div>
+                
+        <div className="login">
                 <Nav.Link href="/Login">Login</Nav.Link>
                 <Nav.Link href="/Cadastro">Cadastre-se</Nav.Link> 
-            </Nav>
+        </div>
+              
+            
           </Container>
         </div>
       </>
     );
   }
-  
   export default NavBar;

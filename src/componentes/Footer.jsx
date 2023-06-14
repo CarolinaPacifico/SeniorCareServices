@@ -22,8 +22,9 @@ function Footer() {
               />
         </Navbar.Brand>
         
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
+
           <div className="me-auto">
 
             <div className="sobre">
@@ -33,7 +34,7 @@ function Footer() {
                     <Nav.Link href="/">Sobre Nós</Nav.Link>
             </div>
             
-            <div className="sobre">
+            <div className="info">
                 <Navbar.Text>Info</Navbar.Text>
                     <Nav.Link href="#faleconosco">Fale Conosco</Nav.Link>
                     <Nav.Link href="#politicadeprivacidade">Política de Privacidade</Nav.Link>
@@ -41,8 +42,11 @@ function Footer() {
             </div>
           
 
-            <div className="sobre">
-                <Navbar.Text>Siga-nos</Navbar.Text>
+            
+            <div className="redes">
+           
+            <Navbar.Text>Siga-nos</Navbar.Text>
+       
                 <div className="midias">
                     <Nav.Link href="/Login">
                     <img
@@ -76,7 +80,7 @@ function Footer() {
                     </div>
             </div>
             
-            <div className="sobre">
+            <div className="pag">
                 <Navbar.Text>Páginas</Navbar.Text>
                     <Nav.Link href="/Login">Login</Nav.Link>
                     <Nav.Link href="/Cadastro">Criar Conta</Nav.Link>

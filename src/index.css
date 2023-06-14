@@ -1,8 +1,19 @@
 .header{
   font-family: Quicksand-SemiBold;
   background-color:#98bbff;
-  display: flex;
+  color:black;
 }
+
+.links{
+  display: flex;
+  justify-content: space-around;
+}
+
+.login{
+  display: flex;
+  justify-content: flex-end;
+}
+
 
 /*.LoginBTN{
   background-color: #060738; 
@@ -96,13 +107,37 @@ p2{
 .me-auto{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.sobre{
-  display: block;
-  flex-direction: column;
 
- 
+.sobre{
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  margin-left: 110px;
+}
+
+.midias{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  justify-content: space-evenly;
+}
+
+.redes{
+  margin-left: 110px;
+} 
+
+
+.pag{
+  display: flex;
+  flex-direction: column;
+  margin-left: 110px;
 }
 
 /* .info{
