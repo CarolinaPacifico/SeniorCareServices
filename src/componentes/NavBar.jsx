@@ -6,7 +6,7 @@ import img from '../img/LOGO.svg'
 function NavBar() {
     return (
       <>
-      <Navbar className='cor'>
+      <div className='header'>
           <Container>
             <Navbar.Brand href="/home"><img
           className="d-block w-100"
@@ -15,24 +15,15 @@ function NavBar() {
           src={img}
           alt="First slide"
         /></Navbar.Brand>
-            <Nav className="me-auto aa">
-            <div>
+            <Nav className="me-auto">
                 <Nav.Link href="/">Sobre Nós</Nav.Link>
                 <Nav.Link href="#features">Nossos Serviços</Nav.Link>
-                <Nav.Link href="#pricing">Contato</Nav.Link>
-            </div>
-            <div>
-                <Container className='LoginBTN'>
+                <Nav.Link href="#pricing">Contato</Nav.Link>   
                 <Nav.Link href="/Login">Login</Nav.Link>
-                </Container> 
-                <Container className='CadastroBTN'>
-                <Nav.Link href="/Cadastro">Cadastre-se</Nav.Link>
-                </Container>
-                  
-            </div>
+                <Nav.Link href="/Cadastro">Cadastre-se</Nav.Link> 
             </Nav>
           </Container>
-        </Navbar>
+        </div>
       </>
     );
   }

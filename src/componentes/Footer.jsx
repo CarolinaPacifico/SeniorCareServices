@@ -13,36 +13,37 @@ function Footer() {
     <Navbar className='Footer' expand="lg">
       <Container>
         <Navbar.Brand href="#home">
-        <img
+            <img
               src={img}
               width={90}
               height={135}
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
-            />
+              />
         </Navbar.Brand>
+        
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <div className="me-auto">
 
-            <Nav className="Sobre">
+            <div className="sobre">
                 <Navbar.Text>Sobre</Navbar.Text>
                     <Nav.Link href="#ajuda">Ajuda</Nav.Link>
                     <Nav.Link href="#contratacao">Contratação</Nav.Link>
                     <Nav.Link href="/">Sobre Nós</Nav.Link>
-            </Nav>
+            </div>
             
-            <Nav className="Info">
+            <div className="sobre">
                 <Navbar.Text>Info</Navbar.Text>
                     <Nav.Link href="#faleconosco">Fale Conosco</Nav.Link>
                     <Nav.Link href="#politicadeprivacidade">Política de Privacidade</Nav.Link>
                     <Nav.Link href="#termos">Termos e Condições</Nav.Link>
-            </Nav>
+            </div>
           
 
-            <Nav className="siga">
+            <div className="sobre">
                 <Navbar.Text>Siga-nos</Navbar.Text>
-                <Nav className="midias">
+                <div className="midias">
                     <Nav.Link href="/Login">
                     <img
                     src={wpp}
@@ -72,17 +73,17 @@ function Footer() {
                     alt="React Bootstrap logo"
                     />
                     </Nav.Link>
-                    </Nav>
-            </Nav>
+                    </div>
+            </div>
             
-            <Nav className="paginas">
+            <div className="sobre">
                 <Navbar.Text>Páginas</Navbar.Text>
                     <Nav.Link href="/Login">Login</Nav.Link>
                     <Nav.Link href="/Cadastro">Criar Conta</Nav.Link>
                     <Nav.Link href="/">Sobre Nós</Nav.Link>
-            </Nav>
+            </div>
           
-          </Nav>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
