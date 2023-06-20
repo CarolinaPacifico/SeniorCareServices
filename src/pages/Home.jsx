@@ -10,6 +10,7 @@ function Home() {
     return (
       <>
       <div>
+
           <NavBar/>
           <h1>Sobre Nós</h1>
           <p1>Tudo sobre a nossa empresa</p1>

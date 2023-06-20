@@ -4,14 +4,22 @@
   color:black;
 }
 
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .links{
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
 
-.login{
+.loginbtn{
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 
@@ -133,34 +141,11 @@ p2{
   margin-left: 110px;
 } 
 
-
 .pag{
   display: flex;
   flex-direction: column;
   margin-left: 110px;
 }
-
-/* .info{
-  display: flex;
-  flex-direction: column;
-}
-
-.paginas{
-  display: flex;
-  flex-direction: column;
-  
-}
-
-.siga{
-  display: flex;
-  flex-direction: column;
-  
-} 
-
-.midias{
-  display: flex;
-  flex-direction: row;
-} */
 
 
 @font-face {

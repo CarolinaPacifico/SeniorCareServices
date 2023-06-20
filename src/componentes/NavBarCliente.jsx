@@ -22,7 +22,7 @@ function NavBar() {
                 <Nav.Link href="#pricing">Contato</Nav.Link>
         </div>
                 
-        <div className="loginbtn">
+        <div className="login">
                 <Nav.Link href="/Login">Login</Nav.Link>
                 <Nav.Link href="/Cadastro">Cadastre-se</Nav.Link> 
         </div>

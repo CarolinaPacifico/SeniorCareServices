@@ -1,13 +1,14 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
-function Login() {
+
+function LoginComponente() {
   return (
 <div className='login'>
     <Form>
-      <h1>Bem vindo ao Sign Up</h1>
+      <h1>Bem vindo ao Login</h1>
       <Form.Group className="mb-3" controlId="formBasicEmail" width={30}>
-      <Form.Label className='lala'>Preencha os dados para criar uma conta</Form.Label><br/>
+      <Form.Label className='lala'>Preencha os dados do login para acessar</Form.Label><br/>
         <Form.Label className='lala'>Endereço de E-mail</Form.Label>
         <Form.Control className='box' type="email" placeholder="Coloque o E-mail" />
         <Form.Text className="text-muted lala" width={30}>
@@ -29,7 +30,7 @@ function Login() {
         label="Prestador de Serviços"
       />
       </Form.Group><br/>
-      <Button className="loginBTN" type="submit">
+      <Button className="loginBTN" type="submit" href="/buscaprestador">
         Enviar
       </Button>
     </Form>
@@ -37,4 +38,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default LoginComponente;
