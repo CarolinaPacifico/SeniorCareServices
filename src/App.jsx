@@ -3,6 +3,9 @@ import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
 import Home from './pages/Home';
 import BuscaPrestador from './pages/BuscaPrestador'
+import NotificacaoPrestador from './pages/NotificacaoPrestador'
+import PerfilPrestador from './pages/PerfilPrestador'
+import HomePrestador from './pages/HomePrestador'
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 function App() {
@@ -16,10 +19,9 @@ function App() {
         <Route path="/login" element={<Login/>}/>
         <Route path="/cadastro" element={<Cadastro/>}/>
         <Route path="/buscaprestador" element={<BuscaPrestador/>}/>
-        {/* <Route path="/chatprestador" element={<ChatPrestador/>}/>
-        <Route path="/homeprestador" element={<HomePrestador/>}/>
         <Route path="/notificacaoprestador" element={<NotificacaoPrestador/>}/>
-        <Route path="/perfilprestador" element={<PerfilPrestador/>}/> */}
+        <Route path="/perfilprestador" element={<PerfilPrestador/>}/>
+        <Route path="/homeprestador" element={<HomePrestador/>}/>
         </Routes>
         </BrowserRouter>
       </div>

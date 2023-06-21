@@ -30,7 +30,7 @@ function LoginComponente() {
         label="Prestador de Serviços"
       />
       </Form.Group><br/>
-      <Button className="loginBTN" type="submit" href="/buscaprestador">
+      <Button className="loginBTN" type="submit" href="/homeprestador">
         Enviar
       </Button>
     </Form>

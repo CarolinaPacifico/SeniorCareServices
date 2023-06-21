@@ -12,7 +12,7 @@ function NavBarPrestador() {
 
       <div className='header'>
           <Container>
-            <Navbar.Brand href="/home" className="logo-img">
+            <Navbar.Brand href="/homeprestador" className="logo-img">
           <img
           width={90}
           height={125}
@@ -20,8 +20,10 @@ function NavBarPrestador() {
           alt="First slide"/>
           </Navbar.Brand>
 
+          <Nav.Link href="/homeprestador">Home</Nav.Link>
+          
           <div className="midias">
-                    <Nav.Link href="/chatprestador">
+                    <Nav.Link className='navlink' href="/chatprestador">
                     <img
                     src={chat}
                     width="30"
@@ -31,7 +33,7 @@ function NavBarPrestador() {
                     />
                     </Nav.Link>
 
-                    <Nav.Link href="/buscaprestador">
+                    <Nav.Link className='navlink' href="/buscaprestador">
                     <img
                     src={busca}
                     width="30"
@@ -41,7 +43,7 @@ function NavBarPrestador() {
                     />
                     </Nav.Link>
 
-                    <Nav.Link href="/notificacaoprestador">
+                    <Nav.Link className='navlink' href="/notificacaoprestador">
                     <img
                     src={sino}
                     width="30"
@@ -51,7 +53,7 @@ function NavBarPrestador() {
                     />
                     </Nav.Link>
 
-                    <Nav.Link href="/perfilprestador">
+                    <Nav.Link className='navlink' href="/perfilprestador">
                     <img
                     src={perfil}
                     width="30"

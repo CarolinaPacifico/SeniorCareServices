@@ -147,6 +147,28 @@ p2{
   margin-left: 110px;
 }
 
+.titazul {
+  color: #5375EE;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.titprinc {
+  color: #31456B;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.navlink {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 @font-face {
   font-family: 'Quicksand';
