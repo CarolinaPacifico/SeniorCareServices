@@ -5,18 +5,23 @@ import CardCriadores from '../componentes/Cards-Criadores';
 import foto from '../img/Union.svg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CardSobre2 from '../componentes/Cards-Sobre2';
+import idosos from '../img/idosos.svg'
 
 function Home() {
     return (
       <>
       <div>
-
           <NavBar/>
+          <img className='idosos'
+          src={idosos}
+          width={1263}
+          alt="First slide"
+          />
+          <br />
           <h1>Sobre Nós</h1>
           <p1>Tudo sobre a nossa empresa</p1>
           <CardSobre/>
           <CardSobre2/>
-
         
           <h2>O que oferecemos?</h2>
           <p2>Nossa empresa promete uma gama de cuidados a seus familiares e amados</p2>

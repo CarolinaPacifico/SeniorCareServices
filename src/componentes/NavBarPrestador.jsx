@@ -20,6 +20,7 @@ function NavBarPrestador() {
           alt="First slide"/>
           </Navbar.Brand>
 
+
           <Nav.Link href="/homeprestador">Home</Nav.Link>
           
           <div className="midias">
@@ -65,6 +66,7 @@ function NavBarPrestador() {
                     </div>
                   </Container>
           </div>
+  
     );
   }
   export default NavBarPrestador;

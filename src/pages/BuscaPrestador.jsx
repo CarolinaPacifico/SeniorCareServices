@@ -8,7 +8,7 @@ function BuscaPrestador() {
   return (
     <div>
       <NavBarPrestador/>
-      <h1>Prestadores de Serviço Disponíveis</h1>
+      <h1 className='titprinc'>Prestadores de Serviços</h1> <h1 className='titazul'>Disponíveis</h1>
       <CardsPrestador1/>
       <CardsPrestador2/>
       <CardsPrestador3/>

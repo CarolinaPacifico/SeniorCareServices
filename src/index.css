@@ -12,8 +12,12 @@
 
 .links{
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */;
   justify-content: space-around;
+}
+
+.navlink{
+  justify-content: space-between;
 }
 
 .loginbtn{
@@ -22,6 +26,16 @@
   justify-content: space-around;
 }
 
+.cardcolorido{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* .hometexto{
+  display: flex;
+  justify-content: flex-start;
+} */
 
 /*.LoginBTN{
   background-color: #060738; 
@@ -134,7 +148,7 @@ p2{
   display: flex;
   flex-direction: row;
   margin-top: 15px;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .redes{
@@ -168,6 +182,10 @@ p2{
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.mb-2{
+  height: 115px;
 }
 
 @font-face {
